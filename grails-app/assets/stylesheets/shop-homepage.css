@@ -1,0 +1,380 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    /*padding-top: 50px;!* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. *!*/
+    background: linear-gradient(#f9f9f9,#f9f9f9);
+    margin-left: 0px ;!important;
+    margin-right: 0px;!important;
+    height: 100%;
+}
+.container{
+
+}
+nav{
+    background: linear-gradient(#c9302c,#761c19);
+    /*height: 50px;*/
+    margin-left: 0;!important;
+}
+.navbar-header{
+    background-color:#23527c;
+    /*height: 50px;*/
+    padding-left: 3px;
+    /*color: white;!important;*/
+}
+.navbar-header a.navbar-brand{
+ color: white;
+    font-weight: bolder;
+    font-family: "Comic Sans MS";
+    background-color: #122b40;
+}
+.navbar-brand{
+    margin-left: 0px;!important;
+}
+nav li {
+    font-weight: normal;
+    /*height: 50px;*/
+    font-size: larger;
+    justify-content: space-between;
+    border-style: ridge;!important;
+    border-top: none;
+    border-bottom: none;
+    border-width: thin;
+    /*color: white;!important;*/
+    /*padding-top: 5px;*/
+    /*width: 100px;*/
+    }
+nav .glyphicon{
+    color: #DDDDDD;
+}
+nav li:hover{
+    background-color: #080808;
+}
+.nav.navbar-nav li a{
+    color: white;
+}
+/*h4:hover{*/
+    /*color: white;*/
+/*}*/
+#category li{
+    background-color: #faebcc;
+    font-family: "Britannic Bold";
+    height:60px;
+    text-align: left;
+
+}
+#category li a{
+    padding-bottom: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#category li a:hover{
+    color: white;
+
+}
+#category li:hover{
+    background-color: #c7254e;
+
+}
+.lead{
+    background-color:#c7254e;
+    color: white;
+}
+.row{
+    width: 100%;
+    padding-left: 10px;
+    /*padding-right: 5px;*/
+}
+
+.slide-image {
+    width: 100%;
+
+}
+
+.carousel-holder {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.carousel-control,
+.item{
+    border-radius: 4px;
+}
+
+.caption {
+    height: auto;
+    overflow: hidden;
+    margin-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#categories_images_caption{
+    height: 80px;
+    background-color: #faf2cc;
+    position: relative;
+    /*color: white;*/
+}
+#products_caption{
+    padding-top: 2px;
+    height: 60px;
+    background-color: #faf2cc;
+    /*color: white;*/
+    /*margin-top: 6px;*/
+}
+#product_detail_caption{
+    height: 200px;
+}
+
+.caption h4 {
+    white-space: nowrap;
+    }
+
+#products{
+    padding: 1px;
+    /*height:300px;*/
+}
+#product_detail{
+padding: 2px;
+    position:relative;
+    overflow:hidden;
+}
+#categories_images{
+    padding: 2px;
+    position: relative;
+    overflow: hidden;
+    /*background-color: #122b40;*/
+}
+#categories_images_ratings{
+    background-color: #f9f9f9;
+}
+.thumbnail {
+    padding:0;
+    position: relative;
+
+}
+.grow { transition: all .2s ease-in-out;overflow: hidden ;}
+.grow:hover { transform: scale(1.2); overflow:hidden;position: relative}
+/*.thumbnail img:hover {*/
+    /*position:relative;*/
+    /*top:-25px;*/
+    /*left:-35px;*/
+    /*width:500px;*/
+    /*height:auto;*/
+    /*display:block;*/
+    /*z-index:999;*/
+/*}*/
+.thumbnail #products{
+    position: relative;
+}
+.thumbnail a{
+ position: relative;
+    /*overflow: hidden;*/
+}
+.ratings {
+    padding-left: 2px;
+    /*padding-right: 5px;*/
+    /*padding-left: 5px;*/
+    color: #00415d;
+    background-color:#f9f9f9;
+    position: relative;
+    /*margin: 0;!important;*/
+    }
+#rating_addToCart{
+    /*background-color: #122b40;*/
+}
+
+table{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.form ul{
+    list-style: none;
+}
+/*register form*/
+.panel{
+    margin-left: 10%;
+
+    color: darkblue;
+}
+.panel-title{
+    color: firebrick;
+    font-weight:bold;
+    font-size: larger;
+    font-family:Arial;
+    margin-left: 2%;
+}
+.panel-heading{
+
+}
+/*register form end*/
+
+/*login form*/
+body {
+    padding-top: 90px;
+}
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    color: #029f5b;
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #1CB94E;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #1CA347;
+    border-color: #1CA347;
+}
+
+/**/
+.paginateButtons {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-top: 0;
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
+/*footer*/
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+#footer {
+    border-top: 5px solid #CDB380;
+    background: #761c19 none repeat scroll 0% 0%;
+    padding-top: 10px;
+    margin-top: 30px;
+    clear: both;
+    color: #AAA;
+    display: block;
+}
+
+#footer .widgettitle {
+    margin: 0px;
+    padding: 0px 0px 15px;
+    border-bottom: medium none;
+}
+#footer h4 {
+    color: #FFF;
+}
+
+#footer ul {
+    list-style: outside none none;
+}
+
+#footer li {
+    padding: 7px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    margin: 0px;
+}
+
+#footer li a {
+    color: #DDD;
+}
+#footer h4{
+    color: #FFFFFF;
+}
+
+#sub-floor {
+    color: #AAA;
+    background: #000000 none repeat scroll 0% 0%;
+    padding: 10px 0px;
+}
