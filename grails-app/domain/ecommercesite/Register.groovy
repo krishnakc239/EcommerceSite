@@ -13,7 +13,7 @@ class Register {
         password size: 5..15, blank: false
         email email: true, blank: false
         lastName nullable: false, blank: false
-        city bullable:false, blank: false
+        city nullable: false, blank: false
         country blank: false
     }
 }
