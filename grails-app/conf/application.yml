@@ -111,16 +111,16 @@ dataSource:
     dbCreate: "update"
     url: "jdbc:mysql://localhost/EcommerceSite"
     username: "root"
-    password: ""
+    password: "root"
 
 environments:
     development:
         dataSource:
         driverClassName: "com.mysql.jdbc.Driver"
         dbCreate: "update"
-        url: "jdbc:mysql://localhost/ecommerce_site"
+        url: "jdbc:mysql://localhost/EcommerceSite"
         username: "root"
-        password: ""
+        password: "root"
     test:
         dataSource:
             dbCreate: update
